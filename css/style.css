@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: Bahnschrift;
+}
+
+header{
+	background-image:url(../BackImage.jpg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+}
+
+ul{
+	float:right;
+	list-style-type:none;
+	margin-top:25px;
+	margin-right:10px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+}
+
+ul li a:hover{
+	background-color: #009;
+	color: #ff1;
+}
+
+.logo img{
+	float:left;
+	width:100px;
+	height:auto;
+}
+
+.main{
+	max-width:auto;
+	margin:auto;
+}
